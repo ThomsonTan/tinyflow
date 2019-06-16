@@ -31,3 +31,5 @@ EXPORTS
     NNGraphGetJSONAttr
     NNGraphSetNodeEntryListAttr_
     NNGraphApplyPasses
+    gradient_force_link
+    infer_type_force_link
