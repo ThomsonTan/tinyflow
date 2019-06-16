@@ -73,6 +73,8 @@ Most of TinyFlow's code is self-contained.
 export PYTHONPATH=${PYTHONPATH}:/path/to/tinyflow/python:/path/to/tinyflow/nnvm/python
 ```
 - Try example program ```python example/mnist_softmax.py```
+- Build for Windows, run below command in VS command prompt:
+`cmake -G Ninja -D PYTHON_EXECUTABLE=c:/p3x64/python.exe .. && ninja`
 
 ## Enable Fusion in TinyFlow
 - Build NNVM with Fusion: uncomment fusion plugin part in config.mk, then `make`
