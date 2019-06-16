@@ -4,3 +4,12 @@
 [submodule "dmlc-core"]
 	path = dmlc-core
 	url = https://github.com/dmlc/dmlc-core
+[submodule "lua"]
+	path = lua
+	url = https://github.com/ThomsonTan/lua
+[submodule "torch7"]
+	path = torch7
+	url = https://github.com/ThomsonTan/torch7
+[submodule "cwrap"]
+	path = cwrap
+	url = https://github.com/torch/cwrap

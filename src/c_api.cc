@@ -97,3 +97,7 @@ int NNSessionRun(SessionHandle handle,
   API_END();
   return 0;
 }
+
+int DllMain() {
+    return 1;
+}
