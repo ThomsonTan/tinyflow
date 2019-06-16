@@ -32,6 +32,7 @@ target_sources(libtinyflow
   PRIVATE
     src/c_api.cc
     src/op_nn.cc
+    src/op_tensor.cc
     src/op_special.cc
     src/session.cc
     src/rtc/op_fusion.cc
