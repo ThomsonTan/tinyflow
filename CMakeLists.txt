@@ -41,12 +41,13 @@ target_sources(libtinyflow
     src/tinyflow.def
 )
 
-target_link_libraries(libtinyflow "lua/lua")
-target_link_libraries(libtinyflow "nnvm/nnvm")
-
 include_directories("${PROJECT_SOURCE_DIR}/include")
 include_directories("${PROJECT_SOURCE_DIR}/nnvm/include")
 include_directories("${PROJECT_SOURCE_DIR}/dmlc-core/include")
 include_directories("${PROJECT_SOURCE_DIR}/lua")
 include_directories("${PROJECT_SOURCE_DIR}/torch7/lib/luaT")
 
+#target_link_libraries(libtinyflow "lua/lua")
+#target_link_libraries(libtinyflow "nnvm/nnvm")
+target_link_libraries(libtinyflow lua)
+target_link_libraries(libtinyflow nnvm)
